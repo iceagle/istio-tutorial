@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RecommendationController {
 
-    private static final String RESPONSE_STRING_FORMAT = "recommmendation v1 from '%s': %d\n";
+    private static final String RESPONSE_STRING_FORMAT = "recommmendation v2 from '%s': %d\n";
 
     private final Logger logger = LoggerFactory.getLogger(getClass());
 
